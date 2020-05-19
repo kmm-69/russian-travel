@@ -4,4 +4,4 @@
 
 На данном сайте использована технология Grid Layout и Flex Box.
 
-Ссылка на Github Pages https://kmm-69.github.io/russian-travel/ 
+Ссылка на Github Pages https://kmm-69.github.io/russian-travel/index.html 
