@@ -1,7 +1,7 @@
 @import url(./__title/place__title.css);
 @import url(./__image/place__image.css);
 @import url(./__link/place__link.css);
-@import url(./__paragraphs/__paragraph/place__paragraph.css);
+@import url(./__paragraph/place__paragraph.css);
 @import url(./__paragraphs/place__paragraphs.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
@@ -30,10 +30,11 @@
     }
 }
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .place {
         width: 100%;
         display: flex;
         flex-direction: column;
+        margin-bottom: 48px;
     }
 }

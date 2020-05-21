@@ -4,11 +4,11 @@
 @import url(./__info/footer__info.css);
 .footer {
   min-width: 1184px;
-  max-height: 18px;
   margin-left: 48px;
   margin-right: 48px;
   margin-top: 92px;
   padding-bottom: 24px;
+  height: 18px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,10 +29,10 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
   .footer {
     min-width: 58.125%;
-    max-height: 310px;
+    height: 310px;
     display: flex;
     flex-direction: column;
     justify-content: start;

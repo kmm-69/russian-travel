@@ -1,35 +1,35 @@
-@import url(./__background/cover__background.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__link/cover__link.css);
+
 .cover {
-    width: 92.5%;
-    margin-left: 48px;
-    margin-right: 48px;
-    
+  width: 92.5%;
+  margin-left: 48px;
+  margin-right: 48px;
+  
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
-    .cover {
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-    }
+  .cover {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
-  
-  @media screen and (min-width:768px) and (max-width:1023px) {
-    .cover {
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .cover {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
-  
-  @media screen and (min-width:320px) and (max-width:767px) {
-    .cover {
-     width: 100%;
-     margin-left: 0;
-      margin-right: 0;
-    }
+}
+
+@media screen and (max-width:767px) {
+  .cover {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
+}

@@ -1,24 +1,8 @@
+@import url(./_russian/header__lang-link_russian.css);
+@import url(./_english/header__lang-link_english.css);
+
 .header__lang-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: right;
-    color: #FFFFFF;
-    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header__lang-link:last-child {
-    text-decoration: none;
-    margin-left: 18px;
-}
-
-.header__lang-link:hover {
-    opacity: 0.8;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .header__land-link {
-       line-height: 24px;
-    }
-}
