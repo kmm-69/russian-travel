@@ -8,26 +8,6 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    min-width: 320px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .page {
-        min-width: 100%;
-        margin: 0;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .page {
-        min-width: 100%;
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .page {
-        min-width: 100%;
-        margin: 0;
-        min-width: 320px;
-    }
-}
