@@ -16,11 +16,9 @@
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
     .place {
-        display: grid;
         grid-gap: 48px 32px;
         grid-template-columns: 47.4% 49.1%;
         grid-template-rows: max-content 68.3%;
-        justify-self: center;
     }
 }
 
